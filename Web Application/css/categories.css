@@ -1,0 +1,140 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.bgbackground
+{
+    background-color: rgb(223, 223, 223);
+    scroll-behavior: smooth;
+    height: 100vh;
+}
+.bg
+{
+    background-color: gray;
+}
+.setting-header
+{
+    display: flex;
+    align-items: center;
+}
+.spanset
+{
+    padding: 0 5px;
+}
+.spanset .span-name
+{
+    color: #f2f2f2;
+    font-size: 19px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana;
+    font-weight: 400;
+}
+.setting-header .fas
+{
+    color: #f2f2f2;
+    font-size: 17px;
+    padding: 9px;
+}
+.setting-header .fas:hover
+{
+    background-color: rgb(77, 77, 77);
+    border-radius: 1px;
+}
+.footer
+{
+    background-color: rgb(167, 167, 167);
+    height: 6vh;
+    border: none;
+    outline: none;
+    width: 100%;
+    border-radius: 15px 15px 15px 15px;
+    margin-bottom: 5px;
+    box-shadow: 2px 2px 29px rgba(0,0,0,0.7);
+}
+.footer-icons li .animation :hover
+{
+    color: rgb(59, 59, 59);
+    border-bottom: 3px solid  rgb(56, 56, 56);
+    width: 90%;
+    border-radius: 1px;
+    transition: 0.5s;
+    transform: translatey(-10%);
+}
+.footer-icons li .active
+{
+    color: rgb(59, 59, 59);
+    border-bottom: 3px solid  rgb(56, 56, 56);
+    width: 90%;
+    border-radius: 1px;
+    display: inline-block;
+}
+.footer-icons li
+{
+    flex: 1;
+    text-align: center;
+    cursor: pointer;
+}
+.footer-icons li a
+{
+    color: rgb(105, 105, 105);
+}
+.footer-icons
+{
+   display: flex;
+   position: relative;
+   padding: 6px 0 0 0px;
+   font-size: 19px;
+}
+.mensdetails span ,.womensdetails span,li
+{
+    cursor: pointer;
+}
+.list1
+{
+    font-size: 19px;
+}
+.size
+{
+    font-size: 15px;
+}
+input
+{
+    display: none;
+}
+.menscategories,.menstopwear,.bottomwear,
+.womenscategories,.womenstopwear,.womensbottomwear
+{
+    display: none;
+}
+.menu1list a
+{
+    text-decoration: none;
+    list-style-type: none;
+    color: gray;
+    margin-right: 15px;
+}
+
+#productmens:checked ~  .menscategories,
+#productwomens:checked ~ .womenscategories
+{
+    display: block;
+    color: gray;
+    width: 200px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+#productmenstopwear:checked ~  .menstopwear,#productmensbottomwear:checked ~ .bottomwear,
+#productwomenstopwear:checked ~ .womenstopwear,#productwomensbottomwear:checked ~ .womensbottomwear
+{
+    display: block;
+    color: red;
+    width: 170px;
+    border-radius: 4px;
+}
+.mensdetails
+{
+    margin-bottom: 10px;
+}

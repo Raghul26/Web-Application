@@ -1,0 +1,129 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.bgbackground
+{
+    background-color: rgb(223, 223, 223);
+    height: 100vh;
+}
+.bg, .bg2
+{
+    background-color: gray;
+}
+button
+{
+    border: none;
+    outline: none;
+    background-color:transparent;
+}
+.logoutbutton
+{
+    position: relative;
+    top: 170px;
+}
+.logins-title1
+{
+    position: relative;
+    top: 170px;
+    color: rgb(82, 82, 82);
+    font-size: 20px;
+    text-decoration: none;
+    border-bottom: 1px solid #000;
+    width: 100%;
+    text-align: left;
+}
+.setting-header,.info,.logoutbutton 
+{
+    display: flex;
+    align-items: center;
+}
+.spanset
+{
+    padding: 0 5px;
+}
+.info .info-icon,.logoutimg
+{
+    padding: 0 18px;
+}
+.spanset .span-name
+{
+    color: #f2f2f2;
+    font-size: 19px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana;
+    font-weight: 400;
+}
+.setting-header .fas
+{
+    color: #f2f2f2;
+    font-size: 17px;
+    padding: 9px;
+}
+.setting-header .fas:hover
+{
+    background-color: rgb(77, 77, 77);
+    border-radius: 1px;
+}
+.info a,.login a,.logoutbutton a,.menu a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(82, 82, 82);
+}
+.info
+{
+    width: 100%;
+}
+.info-icon .fas,.logoutbutton .logoutimg
+{
+    color: rgb(87, 87, 87);
+}
+.footer
+{
+    background-color: rgb(167, 167, 167);
+    height: 6vh;
+    border: none;
+    outline: none;
+    width: 100%;
+    border-radius: 15px 15px 15px 15px;
+    margin-bottom: 5px;
+    box-shadow: 2px 2px 29px rgba(0,0,0,0.7);
+}
+.footer-icons li .animation :hover
+{
+    color: rgb(59, 59, 59);
+    border-bottom: 3px solid  rgb(56, 56, 56);
+    width: 90%;
+    border-radius: 1px;
+    transition: 0.5s;
+    transform: translatey(-10%);
+}
+.footer-icons li .active
+{
+    color: rgb(59, 59, 59);
+    border-bottom: 3px solid  rgb(56, 56, 56);
+    width: 90%;
+    border-radius: 1px;
+    display: inline-block;
+}
+.footer-icons li
+{
+    flex: 1;
+    text-align: center;
+    cursor: pointer;
+}
+.footer-icons li a
+{
+    color: rgb(105, 105, 105);
+}
+.footer-icons
+{
+   display: flex;
+   position: relative;
+   padding: 6px 0 0 0px;
+   font-size: 19px;
+}

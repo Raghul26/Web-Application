@@ -1,0 +1,283 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: rgb(223, 223, 223);
+    scroll-behavior: smooth;
+}
+.theam
+{
+    color: rgb(236, 236, 236);
+    font-size: 19px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana;
+}
+label
+{
+    display: flex;
+    align-items: center;
+}
+#button
+{
+    width: 100%;
+    height: 45px;
+    background-color: rgb(223, 223, 223);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#border
+{
+    border-radius: 0px 0px 19px 19px;
+}
+.navbar
+{
+    border: none;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0,0,0,.5);
+}
+footer
+{
+    box-shadow: 0 0 9px 2px rgb(97, 97, 97);
+}
+.bg
+{
+    background-color: gray;
+}
+.bg-1
+{
+    background-color: rgb(212, 212, 212);
+}
+small .fas
+{
+    color: #fff;
+    border: none;
+    outline: none;
+}
+#bybutton
+{
+    border-radius: 50px;
+}
+.price-img .fas
+span .price-img
+{
+    font-size: 15px;
+}
+.bg-3
+{
+    color: #fff;
+}
+.buy-button
+{
+    padding: 0 10px;
+}
+.search1
+{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(202, 202, 202);
+    border-radius: 25px 0px 25px 0px;
+}
+input::placeholder
+{
+    color: rgb(105, 105, 105);
+    font-size: 19px;
+    padding-left: 15px;
+}
+.footer
+{
+    background-color: rgb(167, 167, 167);
+    height: 6vh;
+    border: none;
+    outline: none;
+    width: 100%;
+    border-radius: 15px 15px 15px 15px;
+    margin-bottom: 5px;
+    box-shadow: 2px 2px 29px rgba(0,0,0,0.7);
+    width: auto;
+}
+.footer-icons li .animation :hover
+{
+    color: rgb(59, 59, 59);
+    border-bottom: 3px solid  rgb(56, 56, 56);
+    width: 90%;
+    border-radius: 1px;
+    transition: 0.5s;
+    transform: translatey(-10%);
+}
+.footer-icons li .active
+{
+    color: rgb(59, 59, 59);
+    border-bottom: 3px solid  rgb(56, 56, 56);
+    width: 90%;
+    border-radius: 1px;
+    display: inline-block;
+}
+.footer-icons li
+{
+    flex: 1;
+    text-align: center;
+    cursor: pointer;
+}
+.footer-icons li a
+{
+    color: rgb(105, 105, 105);
+}
+.footer-icons
+{
+   display: flex;
+   position: relative;
+   padding: 6px 0 0 0px;
+   font-size: 19px;
+}
+@media (max-width: 2560px)
+{
+   .sliderimg
+   {
+       max-width: 500px;
+   }
+   .search1
+   {
+    max-width: 500px;
+   }
+}
+@media (min-width: 768px)
+{
+    .searchbox
+    {
+        padding-left: 7rem;
+    }
+}
+@media (min-width: 1024px)
+{
+    .searchbox
+    {
+        padding-left: 23%;
+    }
+}
+@media (min-width: 1140px)
+{
+    .searchbox
+    {
+        padding-left: 415px;
+    }
+}
+.swiper-slide
+{
+    width: 200px;
+    border-radius:0;
+}
+.swiper-container
+{
+    margin-bottom: 29%;
+    overflow: hidden;
+}
+.swiper-slide img
+{
+    width: 250px;
+    border-radius: 15px 15px 0px 0px;
+}
+.product-detail
+{
+    border-radius: 0px 0px 15px 15px;
+}
+.productname
+{
+    font-size: 12px;
+    padding: 0 5px;
+    padding-top: 5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana;
+    margin-bottom: 0;
+}
+.productname1
+{
+    margin-right: 12px;
+}
+.productname2
+{
+    margin-right: 29px;
+}
+.productname3
+{
+    margin-right: 70px;
+}
+.productprice
+{
+    margin: auto 15px;
+    position: absolute;
+    top: 1%;
+    font-size: 15px;
+}
+.buybutton
+{
+    font-size: 15px;
+    padding: 5px 10px;
+    margin: 1px 0;
+    margin-left: 9px;
+    margin-bottom: 9px;
+    /* background-color: rgb(226, 127, 81); */
+   background-color: rgb(51, 51, 51);
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    color: #f2f2f2;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.buybutton:hover
+{
+    background-color: rgb(255, 108, 41);
+}
+.details
+{
+    text-decoration: none;
+    color: #f2f2f2;
+    font-size: 12px;
+    margin: 0 10px;
+    margin-bottom: 1px;
+}
+.productstar
+{
+    font-size: 10px;
+    margin-left: 10px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    color: #ffff48;
+}
+.product-starvotes
+{
+   margin-left: 5px;
+   color: rgb(209, 209, 209);
+}
+.offerproduct
+{
+    color: #000;
+    font-size: 20px;
+    position: none;
+}
+.offerbuybtn
+{
+    padding: 15px 29px;
+    font-size: 15px;
+    margin: 1px 0;
+   background-color: rgb(51, 51, 51);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #f2f2f2;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.offerbuybtn:hover
+{
+    background-color: rgb(255, 108, 41);
+}
+.offerdetails
+{
+    color: #000;
+}
